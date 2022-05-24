@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    @media screen and (max-width: 1200px) {
+        body {
+            background-image: linear-gradient(45deg, black, crimson);
+            width: 100vw;
+            height: auto;
+            color: white;
+            text-align: center;
+        }
+
+        .title {
+            width: 100%;
+        }
+
+        .layout {
+            display: flex;
+            flex-direction: column;
+        }
+        .linha-horizontal-home {
+            width: 53%;
+            border: 1px solid #fff;
+            margin-bottom: 0.5%;
+        }
+
+    }
+    @media screen and(min-width: 1100px) {
+        .linha-horizontal-home {
+            width: 20rem;
+            border: 1px solid #fff;
+            margin-bottom: 0.5%;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .pic {
+            width: 15rem;
+            height: 15rem;
+            border-radius: 50%;
+            box-shadow: 3% 3% 3% 3%;
+            -webkit-filter: grayscale(0%);
+        }
+
+        .linha-horizontal-home {
+            width: 15rem;
+            border: 1px solid #fff;
+            margin-bottom: 0.5%;
+        }
+    }
+</style>
+
+<body>
+    <nav>
+        <tr>
+            <a class="home" href="home.html">
+                <i class="fa-solid fa-house">&nbsp;</i>Home
+            </a>
+        </tr>
+    </nav>
+    <div>
+        <div class="title">
+            <h1>Kamilly Marchi</h1>
+            <div class="linha-horizontal-home"></div>
+            <h2>Feliz aniversário, meu amor!</h2>
+            <h3>Abaixo encontra-se um pouco sobre tudo, clique para visualizar!</h3>
+        </div>
+        <div class="layout">
+            <div>
+                <p class="parag">Sobre nós</p>
+                <a href="nos.html">
+                    <img src="/nos1.jpeg" alt="" class="pic">
+                </a>
+            </div>
+            <div>
+                <p class="parag">Amor</p>
+                <a href="amor.html">
+                    <img src="/milly.jpeg" alt="" class="pic">
+                </a>
+            </div>
+            <div>
+                <p class="parag">Timeline</p>
+                <a href="timeline.html">
+                    <img src="/timeline-wpp.jpg" alt="" class="pic">
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

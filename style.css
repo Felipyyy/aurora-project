@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(45deg, black, crimson);
+    height: 110vh;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: start;
+    margin-top: 1%;
+    margin-left: 1.5rem;
+    font-weight: 800;
+    font-size: larger;
+
+}
+
+.home {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.home:hover {
+   color: black;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    margin-top: 0.5rem;
+    margin-bottom: 1%;
+}
+
+.linha-horizontal-home {
+    width: 18%;
+    border: 1px solid #fff;
+    margin-bottom: 0.5%;
+}
+
+.linha-horizontal-kamilly {
+    width: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 0.5%;
+}
+
+.linha-horizontal-nos {
+    width: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 0.5%;
+}
+
+.linha-horizontal-card {
+    width: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 0.5%;
+}
+
+.parag {
+    margin-bottom: 2%;
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 800;
+    font-size: large;
+}
+
+.layout-timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 800;
+    font-size: large;
+}
+
+.pic {
+    width: 23rem;
+    height: 23rem;
+    border-radius: 50%;
+    box-shadow: 3% 3% 3% 3%;
+    -webkit-filter: grayscale(0%);
+}
+
+.pic:hover {
+    -webkit-filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.linha-do-tempo {
+    width: 60%;
+    margin-top: 1%;
+    border-radius: 15%;
+}
+
+.layout-nos {
+    display: flex;
+    flex-direction: column;
+}
+
+video {
+    width: 20%;
+    margin-top: 1%;
+    border-radius: 2rem;
+}
+
+.texto {
+    text-align: justify;
+    margin: 3%;
+}
+
+.texto > p {
+    margin-bottom: 2%;
+}
+
+.destinatário {
+    text-align:start;
+}
+
+.assinatura {   
+    text-align: center;
+}
+
+.gif {
+    width: 15%;
+}
+
+.animacao {
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .layout {
+            flex-direction: column;
+        }
+
+        @media screen and (max-width: 1200px) {
+            video {
+                width: 40%;
+                margin-top: 1%;
+                border-radius: 15%;
+            }
+            p {
+                margin-bottom: 1%;
+            }
+
+        @media screen and (max-width: 600px) {
+            video {
+            width: 50%;
+            margin-top: 1%;
+            border-radius: 2rem;
+        }
+        }   
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <tr>
+            <a class="home" href="home.html">
+                <i class="fa-solid fa-house">&nbsp;</i>Home
+            </a>
+        </tr>
+    </nav>
+    <div class="layout-nos">
+        <div class="title">
+            <h1>Sobre nós
+                <div class="linha-horizontal-kamilly"></div>
+            </h1>
+        </div>
+        <div>
+            <p> Estar com você, é sinônimo de conforto e bem estar constante.</p>
+        </div>
+        <div>
+            <video controls autoplay>
+                <source src="/MOVIE.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+</body>
+
+</html>
